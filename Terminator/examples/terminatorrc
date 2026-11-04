@@ -1,0 +1,31 @@
+# Sample ~/.terminatorrc for Terminator
+#
+# Copy it with:   cp examples/terminatorrc ~/.terminatorrc
+# or change bindings from inside Terminator with the `bind` builtin
+# (`bind -l` lists the actions, `bind -R` restores every default).
+#
+# Format:  bind <action> <key>
+# Keys:    modifiers Ctrl, Shift, Alt joined with '+', then a key name:
+#          a letter/digit/symbol, Left, Right, Up, Down, Home, End, Tab,
+#          PageUp, PageDown, Insert, Delete, Escape, Space, F1..F12.
+#
+# Invalid or conflicting lines are reported when Terminator starts (and when
+# `bind` reloads the file); the affected action keeps its default key.
+#
+# Defaults:
+#   cursor-left Left          cursor-right Right
+#   line-start Ctrl+A         line-end Ctrl+E
+#   history-prev Up           history-next Down
+#   kill-line-start Ctrl+U    kill-line-end Ctrl+K
+#   delete-word Ctrl+W        clear-screen Ctrl+L
+#   eof Ctrl+D                interrupt Ctrl+C        suspend Ctrl+Z
+#   copy Ctrl+Shift+C         paste Ctrl+Shift+V
+#   history-search Ctrl+R    complete Tab
+#   new-tab Ctrl+Shift+T      close-tab Ctrl+Shift+W
+#   next-tab Ctrl+PageDown    prev-tab Ctrl+PageUp
+#   scroll-up Shift+PageUp    scroll-down Shift+PageDown
+
+# Examples (uncomment to use):
+# bind history-search Alt+R
+# bind new-tab Ctrl+Shift+N
+# bind clear-screen F5

@@ -1,0 +1,9 @@
+Makefile
+README.md
+a.txt
+build
+docs
+examples
+src
+terminator
+tests
